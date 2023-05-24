@@ -1,0 +1,42 @@
+body {
+    background: #e4e4e4;
+}
+
+header {
+    background: #4a6ff9;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.subtitle {
+    color: black;
+    font-size: 18px;
+}
+
+.card {
+    background: white;
+}
+
+.figure {
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

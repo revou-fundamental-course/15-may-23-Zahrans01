@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <span class="title">Katik</span> <span class="subtitle">Kalkulator Matematik</span> 
+   </header>
+
+   <main>
+        <div class="card">
+            <div class="figure">
+                <img src="Persegi.png" title="Persegi" width="150" height="150">
+            </div>
+            
+            <div class="formula-description">
+                <p>Rumus Luas Persegi :</p> 
+                <center><strong><p>L = S x S</p></center></strong>
+                <p>Rumus Keliling Persegi :</p>
+                <center><strong><p>K = 4*S</p></center></strong>
+
+                <br>
+
+                <p>Keterangan :</p> 
+                <p>L = Luas</p> 
+                <p>K = Keliling</p>
+                <p>S = Sisi</p>
+            </div>
+
+            <div>
+                <form>
+                    <center><h2>Hitung Luas dan Keliling Persegi</h2></center>
+                    <input type="text" id="sisiLuas" oninput="luas(), keliling()" required>
+
+                    <p id="rumus-luas">L = S x S</p>
+                    <p id="rumus-luas">L = 4 x S</p>
+
+                    <p>Luas = <span id="luas"></p>
+                    <p>keliling = <span id="keliling"></p>
+
+                    <button style="background-color: orange; border-color: white; color: white;" type="reset" value="Reset" onclick="luas(), keliling()">Reset</button>
+                   
+                </form>
+
+            </div>
+   </main>
+    
+   <script src="script.js"></script>
+
+</body>
+</html>
